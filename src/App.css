@@ -1,0 +1,44 @@
+@font-face {font-family: "Langdon";
+  src: url("//db.onlinewebfonts.com/t/f4b819bb8e3dcf620c21806e8036adbf.eot");
+  src: url("//db.onlinewebfonts.com/t/f4b819bb8e3dcf620c21806e8036adbf.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/f4b819bb8e3dcf620c21806e8036adbf.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/f4b819bb8e3dcf620c21806e8036adbf.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/f4b819bb8e3dcf620c21806e8036adbf.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/f4b819bb8e3dcf620c21806e8036adbf.svg#Langdon") format("svg");
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+  color: #f14139;
+}
+
+.App-header {
+  background-color: #f5ded9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(40px + 2vmin);
+  color: #f14139;
+  font-family: "Langdon";
+}
+
+.App-link {
+  color: #f14139;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
