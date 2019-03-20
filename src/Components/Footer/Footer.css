@@ -10,9 +10,15 @@ dark color: f14139 */
     url("//db.onlinewebfonts.com/t/f4b819bb8e3dcf620c21806e8036adbf.svg#Langdon") format("svg");
   }
 
-.Contenido {
-    background-color: yellowgreen;
+#Footer {
+    background-color: brown;
     color: #f14139;
     font-family: "Langdon";
     text-align: center;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    
+    /* margin: 20px;
+    padding: 20px; */
 }

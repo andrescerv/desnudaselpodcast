@@ -6,18 +6,15 @@ import {
     Nav,
     NavItem,} from 'reactstrap';
 
-class desnudasNavbar extends Component {
+class DesnudasNavbar extends Component {
     state = {  }
     render() { 
         return ( 
-            <div>
-                <Navbar color="#f14139" expand="md">
+            <div id="Navbar">
+                <Navbar expand="md">
                     <button href="/">
                         <h1>Desnudas</h1>
                     </button>
-                    <Nav color="#f14139">
-                        
-                    </Nav>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
                             <button href="/">
@@ -46,4 +43,4 @@ class desnudasNavbar extends Component {
     }
 }
  
-export default desnudasNavbar;
+export default DesnudasNavbar;
