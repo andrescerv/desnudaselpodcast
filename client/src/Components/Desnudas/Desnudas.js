@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+
 import './Desnudas.css'
 import DesnudasNavbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
@@ -12,7 +13,7 @@ class Desnudas extends Component {
                     <DesnudasNavbar/>
                 </div>
                 <div class="Contenido">
-                    Contenido
+                    Este es el podcast con más ovarios.
                 </div>
                 <div id="Footer">
                     <Footer/>

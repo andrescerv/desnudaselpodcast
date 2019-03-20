@@ -11,14 +11,11 @@ dark color: f14139 */
   }
 
 #Footer {
-    background-color: brown;
+    background-color: #f5ded9;
     color: #f14139;
     font-family: "Langdon";
     text-align: center;
     bottom: 0px;
     position: fixed;
     width: 100%;
-    
-    /* margin: 20px;
-    padding: 20px; */
 }
