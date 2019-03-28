@@ -10,16 +10,16 @@ dark color: f14139 */
     url("//db.onlinewebfonts.com/t/f4b819bb8e3dcf620c21806e8036adbf.svg#Langdon") format("svg");
   }
 
-#Navbar {
+#navbar {
     background-color: #f5ded9;
+    color: #f14139;
     font-family: "Langdon";
+    font-size: 30px;
 }
 
-Link {
-    background-color: #f5ded9;
-    color: #f14139; 
-    font-family: 'Langdon';
-    margin: 0px;
-    border: 10px;
-    padding: 10px;
+.button {
+    color: #f14139;
+    border: 2px;
+    border-color: #f14139;
+    margin-left: 5px;
 }
