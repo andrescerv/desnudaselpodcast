@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import './Navbar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
@@ -9,32 +10,35 @@ import {
 class DesnudasNavbar extends Component {
     state = {  }
     render() { 
-        return ( 
+        return (
             <div id="Navbar">
                 <Navbar expand="md">
-                    <button href="/">
-                        <h1>Desnudas</h1>
-                    </button>
+                        <Link to="/">Desnudas</Link>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <button href="/">
-                                <h3>Blog</h3>
-                            </button>
+                                <Link to="/Blog">Blog</Link>
+            
                         </NavItem>
                         <NavItem>
-                            <button href="/">
-                                <h3>Spotlight</h3>
-                            </button>
+                            Spotlight">
+                                <Link to="/Spotlight">
+                                    Spotlight
+                                </Link>
+            
                         </NavItem>
                         <NavItem>
-                            <button href="/">
-                                <h3>Nosotras</h3>
-                            </button>
+                            Nosotras">
+                                <Link to="/Nosotras">
+                                    Nosotras
+                                </Link>
+            
                         </NavItem>
                         <NavItem>
-                            <button href="/">
-                                <h3>Dona</h3>
-                            </button>
+                            Dona">
+                                <Link to="/Dona">
+                                    Dona
+                                </Link>
+            
                         </NavItem>
                     </Nav>
                 </Navbar>
