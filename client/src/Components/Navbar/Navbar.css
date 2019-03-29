@@ -14,12 +14,17 @@ dark color: f14139 */
     background-color: #f5ded9;
     color: #f14139;
     font-family: "Langdon";
-    font-size: 30px;
+}
+
+.mainButton {
+    color: #f14139;
+    font-size: 2em;
+    border-color: #f14139
 }
 
 .button {
     color: #f14139;
-    border: 2px;
+    font-size: 1.5em;
     border-color: #f14139;
-    margin-left: 5px;
+    margin-right: 2em;
 }

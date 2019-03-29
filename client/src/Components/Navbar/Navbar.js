@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {
@@ -7,8 +7,7 @@ import {
   Navbar,
   NavbarToggler,
   NavbarBrand,
-  Nav,
-  NavItem } from 'reactstrap'
+  Nav } from 'reactstrap'
 
 // Styles
 const NavbarStyle = {
@@ -18,7 +17,8 @@ const NavbarStyle = {
 
 const NavbarBrandStyle = {
   margin: '0px',
-  padding: '0px'
+  padding: '0px',
+  fontsize: '1em',
 }
 
 class desnudasNavbar extends Component {
@@ -40,19 +40,19 @@ class desnudasNavbar extends Component {
       <div id='navbar'>
         <Navbar light expand='md' style={NavbarStyle}>
           <NavbarBrand style={NavbarBrandStyle}>
-            <Link to='/' className='button'>desnudas</Link>
+            <Link to='/' className='mainButton'>desnudas</Link>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className='ml-auto' navbar>
 
-              <Link to='/Blog' className='button'>blog</Link>
+              <Link to='/blog' className='button'>blog</Link>
 
-              <Link to='/Spotlight' className='button'>spotlight</Link>
+              <Link to='/spotlight' className='button'>spotlight</Link>
 
-              <Link to='/Nosotras' className='button'>nosotras </Link>
+              <Link to='/nosotras' className='button'>nosotras </Link>
 
-              <Link to='/Dona' className='button'>dona</Link>
+              <Link to='/dona' className='button'>dona</Link>
 
             </Nav>
           </Collapse>

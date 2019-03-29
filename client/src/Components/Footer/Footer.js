@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import { SocialIcon } from 'react-social-icons';
 // import {
 
@@ -7,8 +7,14 @@ import { SocialIcon } from 'react-social-icons';
 import './Footer.css'
 
 class Footer extends Component {
-    state = {  }
+    
+     state = {
+        data: ' '
+      }
+
     render() { 
+        console.log(this.state)
+        console.log(this)
         return ( 
             <div id="Footer">
                 <SocialIcon url="https://www.instagram.com/desnudaselpodcast/?hl=es-la" bgColor="f5ded9" fgColor="#f14139"/>
