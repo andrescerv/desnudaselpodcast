@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 
-class Blog extends Component {
+class Admin extends Component {
     state = {  }
     render() { 
         return ( 
             <div>
-                <h1>Blog3</h1>
+                <h1>Usuario</h1>
+                <h1>Constraseña</h1>
             </div>
          );
     }
 }
  
-export default Blog;
+export default Admin;

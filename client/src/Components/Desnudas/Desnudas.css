@@ -10,31 +10,14 @@ dark color: f14139 */
     url("//db.onlinewebfonts.com/t/f4b819bb8e3dcf620c21806e8036adbf.svg#Langdon") format("svg");
   }
 
-  /* @font-face {
-    font-family: 'carolinaregular';
-    src: url('C:/Users/t450/Documents/BEDU/SANDBOX/GitHub/desnudaselpodcast/materialDeDiseño/carolina/carolina.ttf') format('truetype'),
-         url('C:/Users/t450/Documents/BEDU/SANDBOX/GitHub/desnudaselpodcast/materialDeDiseño/carolina.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+* { box-sizing: border-box; }
 
-} */
-/* carolina.woff */
-
-.contenido {
-    background-color: #f5ded9;
-    color: #f14139;
-    /* font-family: "carolinaregular"; */
-    font-size: 1em;
-    text-align: center;
-    /* position: absolute; */
-    /* top: 0; left: 0; height: 500px; width: 100%; */
-}
-
-.center-center{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.spotify {
   width: 100%;
-  height: 100%;
+  text-align: center;
+  background-color: #f5ded9;
+  color: #f14139;
+  font-family: 'Langdon';
+  padding-top: 50px;
+  margin-bottom: 0%;
 }

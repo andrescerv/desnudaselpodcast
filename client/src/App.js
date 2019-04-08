@@ -10,6 +10,7 @@ import Spotlight from './Components/Spotlight/Spotlight'
 import Nosotras from './Components/Nosotras/Nosotras'
 import Dona from './Components/Dona/Dona'
 import Footer from './Components/Footer/Footer'
+import Admin from './Components/Admin/Admin'
 
 class App extends Component {
   render () {
@@ -22,6 +23,7 @@ class App extends Component {
           <Route path='/spotlight' component={Spotlight} />
           <Route path='/nosotras' component={Nosotras} />
           <Route path='/dona' component={Dona} />
+          <Route path='/admin' component={Admin}/>
         </BrowserRouter>
         <Footer />
       </div>
