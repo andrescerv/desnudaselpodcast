@@ -21,3 +21,13 @@ dark color: f14139 */
   padding-top: 50px;
   margin-bottom: 0%;
 }
+
+.homeGIF {
+  height: 80vh;
+  width: 100%;
+}
+
+.homeGIF>img{
+  height: 100%;
+  width: 100%;
+}
