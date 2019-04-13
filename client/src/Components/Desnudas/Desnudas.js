@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './Desnudas.css'
 import homeLogo from "../../material_AV/equipoDesnudas.jpg"
+import {PlaylistSoundPlayer} from '../Soundcloud/Soundcloud'
 
 class Desnudas extends Component {
     state = {  }
@@ -13,6 +14,7 @@ class Desnudas extends Component {
                 <div className="spotify">
                     <iframe title="spotify-play-button" src="https://open.spotify.com/embed/show/6E8XEbQ0abhCQsTbFD2t5i" bg-color="green" width="80%" height="380" frameborder="0" allowtransparency="false" allow="encrypted-media"></iframe>
                 </div>
+                <PlaylistSoundPlayer/>
             </div>
         )
     }
