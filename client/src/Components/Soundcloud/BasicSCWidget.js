@@ -3,14 +3,17 @@ import React, { Component } from 'react';
 import { withSoundCloudAudio } from 'react-soundplayer/addons';
 import { PlayButton, Progress, VolumeControl, NextButton, Cover, Icons } from 'react-soundplayer/components';
 
-const { SoundCloudLogoSVG } = Icons;
+// const { SoundCloudLogoSVG } = Icons;
 
 class ProgressSoundPlayer extends Component {
 
   render() {
-    const { track, currentTime, duration, resolveUrl, clientId } = this.props;
+    const { track, currentTime, duration } = this.props;
     console.log(this.props);
     console.log(track);
+    // console.log(track);
+    console.log(Object.keys(this.props))
+
     return (
       <div className="p2 border navy mt1 mb3 flex flex-center rounded">
         <PlayButton className="flex-none h4 mr2 button white btn-big button-outline button-grow bg-orange circle" {...this.props} />
