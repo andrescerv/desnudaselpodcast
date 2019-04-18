@@ -23,11 +23,15 @@ dark color: f14139 */
 }
 
 .homeGIF {
-  height: 80vh;
+  background-color: #f5ded9;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  height: 100%;
   width: 100%;
 }
 
 .homeGIF>img{
   height: 100%;
-  width: 100%;
+  width: 80%;
 }

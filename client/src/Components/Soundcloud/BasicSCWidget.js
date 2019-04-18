@@ -1,3 +1,5 @@
+// more info at https://github.com/kosmetism/react-soundplayer
+
 import React, { Component } from 'react';
 // import PropTypes from 'prop-types';
 import { withSoundCloudAudio } from 'react-soundplayer/addons';
@@ -27,7 +29,7 @@ class ProgressSoundPlayer extends Component {
     // arr.push(this.props)
     // console.log(arr);
     // console.log(track);
-    console.log(this.state.Progress.audio.baseURI);
+    console.log(this.state.Progress.audio);
     return (
       <div className="p2 border navy mt1 mb3 flex flex-center rounded">
         <PlayButton className="flex-none h4 mr2 button white btn-big button-outline button-grow bg-orange circle" {...this.props} />
