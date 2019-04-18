@@ -1,3 +1,4 @@
+// server/routes/api/articles.js
 const mongoose = require('mongoose')
 const router = require('express').Router()
 const Articles = mongoose.model('Articles')
