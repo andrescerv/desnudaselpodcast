@@ -25,7 +25,12 @@ if(!isProduction) {
     app.use(errorHandler())
 }
 
-mongoose.connect('mongodb://localhost/lightblog')
+mongoose.connect('mongodb://localhost:27017/lightblog', { useNewUrlParser: true }, (err) => {
+    if (err) {
+        return res.status(400).json({message: err.message})
+    }
+    return console.log('Success: connected to localhost 27017.');
+})
 mongoose.set('debug', true)
 
 // Add models
