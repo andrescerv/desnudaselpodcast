@@ -61,41 +61,5 @@ class desnudasNavbar extends Component {
     )
   }
 }
-//   render () {
-//     return (
-//       <div id='navbar'>
-//         <Navbar expand='md'>
-//           <NavbarBrand>
-//             <Link to='/' className='button'>
-//               <h1>Desnudas</h1>
-//             </Link>
-//           </NavbarBrand>
-//           <NavbarToggler onClick={this.toggle} bg-color='#f14139' />
-//           <Collapse isOpen={this.state.isOpen} navbar>
-//             <Nav className='ml-auto' navbar>
-//                 <button bg-color="black">Hola</button>
-//               <NavItem>
-//                 <Link to='/Blog' className='button'>
-//                   <h2>Blog</h2>
-//                 </Link>
-//               </NavItem>
-//               <NavItem>
-//                 <Link to='/Spotlight' className='button'>
-//                   <h2>Spotlight</h2>
-//                 </Link>
-//               </NavItem>
-//               <Link to='/Nosotras' className='button'>
-//                 <h2>Nosotras</h2>
-//               </Link>
-//               <Link to='/Dona' className='button'>
-//                 <h2>Dona</h2>
-//               </Link>
-//             </Nav>
-//           </Collapse>
-//         </Navbar>
-//       </div>
-//     )
-//   }
-// }
 
 export default desnudasNavbar
