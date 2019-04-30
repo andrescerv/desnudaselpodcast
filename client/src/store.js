@@ -1,10 +1,10 @@
-import { createStore, combineReducers } from 'redux'
-import Blog from './Components/Blog/Blog'
+// import { createStore, combineReducers } from 'redux'
+// import Blog from './Components/Blog/Blog'
 
-const reducers = combineReducers({
-    Blog
-})
+// const reducers = combineReducers({
+//     Blog
+// })
 
-const store = createStore(reducers)
+// const store = createStore(reducers)
 
-export default store;
+// export default store;

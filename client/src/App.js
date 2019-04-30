@@ -18,12 +18,14 @@ class App extends Component {
       <div>
         <BrowserRouter>
           <Navbar />
-          <Route exact path='/' component={Desnudas} />
-          <Route path='/blog' component={Blog} />
-          <Route path='/spotlight' component={Spotlight} />
-          <Route path='/nosotras' component={Nosotras} />
-          <Route path='/dona' component={Dona} />
-          <Route path='/admin' component={Admin}/>
+          <div className="content">
+            <Route exact path='/' component={Desnudas} />
+            <Route path='/blog' component={Blog} />
+            <Route path='/spotlight' component={Spotlight} />
+            <Route path='/nosotras' component={Nosotras} />
+            <Route path='/dona' component={Dona} />
+            <Route path='/admin' component={Admin}/>
+          </div>
         </BrowserRouter>
         <Footer />
       </div>

@@ -1,0 +1,36 @@
+/* light color: f5ded9
+dark color: f14139 */
+
+@font-face {font-family: "Langdon";
+    src: url("//db.onlinewebfonts.com/t/f4b819bb8e3dcf620c21806e8036adbf.eot");
+    src: url("//db.onlinewebfonts.com/t/f4b819bb8e3dcf620c21806e8036adbf.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/f4b819bb8e3dcf620c21806e8036adbf.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/f4b819bb8e3dcf620c21806e8036adbf.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/f4b819bb8e3dcf620c21806e8036adbf.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/f4b819bb8e3dcf620c21806e8036adbf.svg#Langdon") format("svg");
+  }
+
+* { box-sizing: border-box; }
+
+.container {
+    /* align-content: center; */
+    /* width: 120%; */
+    /* text-align: center; */
+    background-color: #f5ded9;
+    color: #f14139;
+    font-family: 'Langdon';
+    /* padding-top: 50px;
+    margin-bottom: 0%;
+    margin: 0%; */
+    /* border-right: 10px;
+    border-left: 10px;
+    margin: 0%;
+    margin-right: 0%; */
+    /* margin-bottom: 100%; */
+}
+
+.form{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 500px;
+}
